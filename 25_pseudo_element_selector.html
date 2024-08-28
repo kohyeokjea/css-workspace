@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        p::first-letter{
+            font-size: 48px;
+        }
+        p::first-line{
+            color: red;
+        }
+
+        h1::before{
+            content: "before 적용한 ";
+            color: blue;
+        }
+        h1::after{
+            content: " after 적용하였음";
+            color: green;
+        }
+
+        ::selection{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>heading 1</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ut quisquam enim nesciunt iste, repellat velit
+        corrupti consectetur ad mollitia et tenetur cum accusamus, eum quaerat sed laboriosam libero dolorem!
+    </p>
+</body>
+
+</html>
