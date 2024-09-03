@@ -1,0 +1,7 @@
+body {
+    background-color: gold;
+}
+
+header, nav, main, footer {
+    padding: 10px;
+}
